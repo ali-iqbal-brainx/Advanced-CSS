@@ -1,0 +1,17 @@
+/* out code  */
+.container {
+    min-width: 300px;
+    width: 75%;
+    max-width: 500px;
+    background-color: blue;
+    height: 400px;
+    margin: auto;
+}
+
+/* latest code  */
+/* .container {
+    width: clamp(300px, 75%, 500px);
+    background-color: blue;
+    height: 400px;
+    margin: auto;
+} */

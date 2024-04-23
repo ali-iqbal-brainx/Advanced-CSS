@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    font-size: 3rem;
+    border: 1px solid black;
+    position: relative;
+
+    width: 600px;
+    height: 600px;
+}
+
+.child-box {
+    position: absolute;
+
+    /* top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px; */
+
+    inset: 10px;
+
+    width: 150px;
+    height: 150px;
+
+    border: 1px solid black;
+}

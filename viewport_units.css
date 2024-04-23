@@ -1,0 +1,55 @@
+.main {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    margin-bottom: 50px;
+}
+
+.vw {
+    background-color: red;
+    height: 50px;
+    width: 50vw;
+}
+
+.vh {
+    background-color: red;
+    height: 20vh;
+    width: 300px;
+}
+
+.percentage {
+    background-color: red;
+    width: 50%;
+    height: 50px;
+}
+
+.vmin {
+    background-color: red;
+    /* This will be 50% of the smaller dimension (width or height) of the viewport */
+    width: 50vmin;
+    height: 50px;
+}
+
+.vmax {
+    background-color: red;
+    /* This will be 50% of the larger dimension (width or height) of the viewport */
+    width: 50vmax;
+    height: 50px;
+}
+
+.parent {
+    border: 1px solid black;
+    font-size: 28px;
+}
+
+.rem {
+    font-size: 2rem;
+}
+
+.em {
+    font-size: 2em;
+}

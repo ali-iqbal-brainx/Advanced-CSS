@@ -1,0 +1,42 @@
+.box {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+/* whenever the screen width is greater than 300px the below style will be applied to the box div  */
+@media (min-width: 300px) {
+    .box {
+        background: red;
+    }
+}
+
+/* when the width is greater than height the below style will be applied  */
+/* @media (orientation: landscape) {
+    .box {
+        background: red;
+    }
+} */
+
+/* when the height is greater than width the below style will be applied  */
+/* @media (orientation: portrait) {
+    .box {
+        background: red;
+    }
+} */
+
+/* media queries can also be applied based on the aspect ratio of screen size */
+/* @media (min-aspect-ratio: 1/1) {
+    .box {
+        background: red;
+    }
+} */
+
+/* media query ranges  */
+/* the below media query increase the readability of code  */
+/* @media (width >=500px) {
+    .box {
+        background: red;
+    }
+} */

@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    /* -webkit-box-reflect: right; */
+    -webkit-box-reflect: right 0 linear-gradient(to left, #0000, #0009);
+    -webkit-box-reflect: right 0 linear-gradient(to right, #0000, #0009);
+}

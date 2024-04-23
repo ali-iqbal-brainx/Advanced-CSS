@@ -1,0 +1,18 @@
+/* .text-div {
+    background-image: url('./nature.avif');
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+
+    font-size: 30rem;
+    font-family: sans-serif;
+} */
+
+.text-div {
+    background-image: url('./nature.avif');
+    background-size: cover;
+    color: black;
+
+    font-size: 30rem;
+    font-family: sans-serif;
+}
