@@ -19,7 +19,7 @@ body {
 }
 
 /* rectangular shape animation  */
-.box {
+/* .box {
     width: 100px;
     height: 100px;
     background-color: white;
@@ -33,10 +33,10 @@ body {
 
     animation-name: slides-in;
     animation-fill-mode: forwards;
-}
+} */
 
 /* slide in animation  */
-/* .box {
+.box {
     width: 100px;
     height: 100px;
     background-color: white;
@@ -46,7 +46,7 @@ body {
 
     animation-name: slides-in;
     animation-fill-mode: forwards;
-} */
+}
 
 /* .box {
     width: 100px;

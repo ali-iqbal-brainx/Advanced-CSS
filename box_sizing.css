@@ -1,0 +1,28 @@
+/* *, *::before, *::after {
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #efefef;
+    color: #333;
+}
+
+.scale {
+    width: 500px;
+    height: 50px;
+    background-color: #615756;
+}
+
+.content-box {
+    padding: 25px;
+    width: 500px;
+    background-color: #4dfff3;
+}
+
+.border-box {
+    box-sizing: border-box;
+    padding: 25px;
+    border: 5px solid red;
+    width: 500px;
+    background-color: #52ffb8;
+}

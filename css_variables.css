@@ -1,0 +1,41 @@
+:root {
+    --primary-dark: #0180ff;
+    --clr-dark: #000000;
+    --clr-light: #f1f5f9;
+    --clr-slate: #94a3b8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: var(--primary-dark);
+    color: var(--clr-dark);
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    background-color: var(--clr-slate);
+    color: var(--clr-light);
+    height: calc(100vh - 70px - 150px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    color: var(--clr-dark);
+    background-color: var(--primary-dark);
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

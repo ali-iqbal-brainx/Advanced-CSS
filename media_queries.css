@@ -6,11 +6,11 @@
 }
 
 /* whenever the screen width is greater than 300px the below style will be applied to the box div  */
-@media (min-width: 300px) {
+/* @media (min-width: 300px) {
     .box {
         background: red;
     }
-}
+} */
 
 /* when the width is greater than height the below style will be applied  */
 /* @media (orientation: landscape) {

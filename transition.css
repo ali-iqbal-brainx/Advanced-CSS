@@ -3,17 +3,19 @@
     width: 200px;
     height: 200px;
     background-color: teal;
+
     /* transition-duration: 1s;
     transition-property: background-color, border-radius, transform;
     transition-delay: 0.2s;
-    transition-timing-function: ease; */
+    transition-timing-function: cubic-bezier(0.17, -0.38, 0, 0.89); */
+
     /* transition-timing-function: linear; */
     /* transition-timing-function: ease-in; */
     /* transition-timing-function: ease-out; */
     /* transition-timing-function: ease-in-out;  */
     /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
 
-    /* transition: all 1s ease 0.2s; */
+    transition: all 1s ease-in-out 0.2s;
 }
 
 .box:hover {
